@@ -12,3 +12,5 @@ const searchImages = async () => {
 
     return response;
 }
+
+export default searchImages;

@@ -1,7 +1,12 @@
 function SearchBar() {
+    
+const handleFormSubmit = () =>{
+    console.log('now you see me')
+}
+
     return (
         <div>
-            <form>
+            <form onSubmit={handleFormSubmit}>
                 <input />
             </form>
         </div>

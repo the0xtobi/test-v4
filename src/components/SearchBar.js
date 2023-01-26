@@ -1,6 +1,7 @@
 function SearchBar() {
-    
-const handleFormSubmit = () =>{
+
+const handleFormSubmit = (event) =>{
+    event.preventDefault()
     console.log('now you see me')
 }
 

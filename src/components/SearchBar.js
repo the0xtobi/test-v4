@@ -1,8 +1,8 @@
-function SearchBar() {
+function SearchBar({ onSubmit }) {
 
 const handleFormSubmit = (event) =>{
     event.preventDefault()
-    console.log('now you see me')
+    onSubmit('cars')
 }
 
     return (
